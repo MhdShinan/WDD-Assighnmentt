@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Inno Reach Desighns</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/4.png" alt="Inno Reach Desighns Logo">
+                </a>
+            </div>
+            <nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Banner -->
+        <section class="page-banner">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our team to discuss your business needs</p>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>123 Business Ave, Suite 500<br>New York, NY 10001<br>United States</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>    
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>Main: (555) 123-4567<br>Support: (555) 987-6543<br>Fax: (555) 456-7890</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>info@abcgroup.com<br>support@abcgroup.com<br>careers@abcgroup.com</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>      
+                        </div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form and Map -->
+        <section class="contact-form-map">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                        <div id="contact-notification" style="display:none; margin-bottom:10px;"></div>
+                        <form id="contactForm" class="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="consent" name="consent" required>
+                                    <label for="consent">I consent to having Inno Reach Desighns collect and store my data. For more details, please see our <a href="#">Privacy Policy</a>.</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="map-container">
+                        <h2>Our Location</h2>
+                        <div class="map">
+                            <!-- Embedded Google Map would go here -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.2035035477807!2d80.66990027312471!3d7.331027213256727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae36700655068f1%3A0xb8241083d18fc4f4!2sshinan!5e0!3m2!1sen!2slk!4v1748158027841!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How quickly can you start working on my project?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We typically begin new projects within 1-2 weeks of finalizing the agreement. For urgent needs, we can sometimes accommodate faster timelines. Please contact us to discuss your specific requirements.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you work with small businesses or only large corporations?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We work with businesses of all sizes, from startups and small businesses to large corporations. Our services are scalable and can be tailored to meet the specific needs and budgets of different organizations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What industries do you specialize in?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We have experience across various industries, including technology, finance, healthcare, manufacturing, retail, and education. Our team includes consultants with industry-specific expertise to ensure we understand the unique challenges and opportunities in your sector.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do you measure the success of your services?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We establish clear, measurable objectives at the beginning of each engagement and track progress against these metrics throughout the project. We provide regular reports and updates, and conduct a comprehensive evaluation at the end of the engagement to assess results and identify opportunities for further improvement.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you offer ongoing support after the project is completed?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer various support options after project completion, including implementation support, periodic check-ins, and ongoing advisory services. We can customize a support package based on your specific needs and preferences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media -->
+        <section class="social-section">
+            <div class="container">
+                <h2>Connect With Us</h2>
+                <p>Follow us on social media for the latest updates, insights, and industry news.</p>
+                <div class="social-grid">
+                    <a href="#" class="social-link facebook">
+                        <i class="social-icon facebook-large"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-link twitter">
+                        <i class="social-icon twitter-large"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="#" class="social-link linkedin">
+                        <i class="social-icon linkedin-large"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="social-link instagram">
+                        <i class="social-icon instagram-large"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../images/4.png" alt="Inno Reach Desighns Logo">
+                    <p>Innovative solutions for modern businesses</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><strong>Address:</strong> 123 Business Ave, Suite 500, New York, NY 10001</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> info@abcgroup.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Inno Reach Desighns. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
